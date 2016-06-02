@@ -1,0 +1,159 @@
+body {
+  padding-top: 50px;
+}
+
+.em-text{
+	color: #1caa98 !important
+}
+
+section{
+	padding: 40px 0 40px 0
+}
+
+.col-md-4{
+	margin-bottom: 20px
+}
+
+.jumbotron{
+	background: #1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+	color: #fff;
+	height: 592px;
+	background-size: cover;
+    overflow: hidden;
+}
+.jumbotron h1{
+	margin-top: 60px
+}
+
+.jumbotron p{
+	margin-bottom: 40px
+}
+
+.jumbotron .app-btn{
+	width: 40%;
+	margin-right: 30px
+}
+
+.jumbotron .showcase-img{
+}
+
+.demo{
+	border: 1px solid #CCC;
+	padding: 3px
+}
+
+section#feature{
+	background: #1caa98;
+	color: #fff;
+	padding: 40px;
+	overflow: auto
+}
+
+#feature ul{
+	padding: 0;
+	margin: 0
+}
+
+#feature ul li{
+	font-size: 22px;
+	line-height: 2.0em
+}
+
+section#title-bar{
+	height: 80px;
+	background: #1aac98;
+	color: #fff;
+	margin: 0;
+	padding: 0
+}
+
+footer{
+	background: #333;
+	color: #fff;
+	padding: 30px 0 20px 0
+}
+
+footer li{
+	float: left;
+	padding: 0 10px 0 10px
+}
+
+footer ul li a{
+	text-decoration: none !important;
+	color: #fff
+}
+
+footer a:hover{
+	color: #1caa98;
+}
+
+
+footer p{
+	float: right
+}
+textarea.form-control{
+	height: 150px
+}
+
+/* Media Query */
+@media(max-width: 1200px){
+	
+}
+
+@media(max-width: 991px){
+	.showcase-img{
+		display: none
+	}
+}
+
+@media(min-width: 768px) and (max-width: 990px){
+	.jumbotron .app-btn{
+		width: 30%;
+	}
+	
+	.jumbotron{
+		height: 400px !important;
+		background-size: 100% 100%
+	}
+	
+	.jumbotron h1{
+		margin-top: 10px
+	}
+}
+
+@media(max-width: 768px){
+	.jumbotron{
+		height: 350px !important;
+		background-size: 100% 100%
+	}
+	.jumbotron h1{
+		margin-top: 10px
+	}	
+}
+
+@media(max-width: 500px){
+	.jumbotron{
+		height: 350px !important;
+		background-image: none;
+		text-align: center
+	}
+	
+	.jumbotron .app-btn{
+		width: 30%;
+		margin: 0 auto 30px auto;
+		display: block
+	}
+	
+	#feature ul{
+		font-size: 19px !important
+	}
+	footer a{
+		text-align: center;
+		float: none;		
+	}
+	footer p{
+		text-align: center;
+		float: none;
+		padding-top: 20px
+	}
+}
